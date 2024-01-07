@@ -6,7 +6,7 @@ import { Loader } from "components/spinner/loader.jsx"
 import { Starting } from "components/starting-page/starting-page.jsx"
 import { useEffect, useState } from "react"
 
-export const Movies = () => {
+const Movies = () => {
     const [movies, setMovies] = useState([])
     const [search, setSearch] = useState('')
     const [currentPage, setCurrentPage] = useState(1);
@@ -73,3 +73,5 @@ export const Movies = () => {
     </>
     )
 }
+
+export default Movies

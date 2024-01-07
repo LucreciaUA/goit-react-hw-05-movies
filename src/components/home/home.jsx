@@ -4,7 +4,7 @@ import css from './home.module.css'
 import { ListOfMovies } from "components/listOfMovies/list.jsx";
 import { Loader } from "components/spinner/loader.jsx";
 
-export const Home = () => {
+const Home = () => {
     const [popular, setPopular] = useState([]);
     const [isLoading, setIsLoading] = useState(false)
 
@@ -51,3 +51,5 @@ export const Home = () => {
     )
 
 }
+
+export default Home

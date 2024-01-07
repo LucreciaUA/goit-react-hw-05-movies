@@ -3,11 +3,11 @@ import React, { Suspense, lazy } from 'react';
 import Layout from './outlet/outlet.jsx';
 
 
-const Home = lazy(() => import('./home/home.jsx'));
-const Movies = lazy(() => import('./movies/movies.jsx'));
-const SelectedMovie = lazy(() => import('./detail/detail.jsx'));
-const Cast = lazy(() => import('./cast/cast.jsx'));
-const Reviews = lazy(() => import('./reviews/reviews.jsx'));
+const Home = lazy(() => import('./home/home'));
+const Movies = lazy(() => import('./movies/movies'));
+const SelectedMovie = lazy(() => import('./detail/detail'));
+const Cast = lazy(() => import('./cast/cast'));
+const Reviews = lazy(() => import('./reviews/reviews'));
 
 
 export const App = () => {

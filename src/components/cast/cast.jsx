@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import css from './cast.module.css'
 import { Loader } from "components/spinner/loader.jsx";
 
-export const Cast = () => {
+const Cast = () => {
     const { movieId } = useParams();
     const [cast, setCast] = useState([])
     const [isLoading, setIsLoading] = useState(false)
@@ -62,3 +62,4 @@ export const Cast = () => {
     )
 }
 
+export default Cast

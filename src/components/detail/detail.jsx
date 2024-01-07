@@ -4,7 +4,7 @@ import { NavLink, Outlet, useLocation, useNavigate, useParams } from "react-rout
 import css from './detail.module.css'
 import { Loader } from "components/spinner/loader.jsx";
 
-export const SelectedMovie = (id) => {
+const SelectedMovie = (id) => {
     const {movieId} = useParams()
     const [movieData, setMovieData] = useState([])
     const [isLoading, setIsLoading] = useState(false)
@@ -59,3 +59,5 @@ export const SelectedMovie = (id) => {
     )
     
 }
+
+export default SelectedMovie

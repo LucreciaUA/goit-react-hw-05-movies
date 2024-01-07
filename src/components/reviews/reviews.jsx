@@ -2,7 +2,8 @@ import { getReview } from "API/review.js"
 import { Loader } from "components/spinner/loader.jsx"
 import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-export const Reviews = () => {
+
+const Reviews = () => {
     const [review, setReview] = useState([])
     const { movieId } = useParams()
     const [isLoading, setIsLoading] = useState(false)
@@ -45,3 +46,5 @@ export const Reviews = () => {
         </>
     )
 }
+
+export default Reviews
