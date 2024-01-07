@@ -19,7 +19,7 @@ export const Home = () => {
                 console.log(response);
                 setPopular(response.results);
                 //setTotalPages(response.total_pages)
-                console.log(popular)
+
                 setIsLoading(false)
             } catch (error) {
                 console.error("Failed to fetch popular movies:", error);

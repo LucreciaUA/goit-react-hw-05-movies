@@ -1,6 +1,6 @@
 import { getSelected } from "API/selected";
 import React, { useEffect, useState } from "react";
-import { Link, NavLink, Outlet, useLocation, useNavigate, useParams } from "react-router-dom";
+import { NavLink, Outlet, useLocation, useNavigate, useParams } from "react-router-dom";
 import css from './detail.module.css'
 import { Loader } from "components/spinner/loader";
 
