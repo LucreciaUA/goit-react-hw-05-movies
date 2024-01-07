@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+        border-bottom: 1px solid #75ff8c;
+        background-color: #d0ffd8;
+}
+
+
+.listItems {
+    list-style: none;
+   color: #000;
+    padding: 0 10px;
+    height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.listItems:hover {
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.activeLink {
+    color: rgb(9, 9, 232);
+
+
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+}

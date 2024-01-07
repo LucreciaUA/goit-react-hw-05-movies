@@ -1,0 +1,17 @@
+.pagination{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.numButton{
+    border: 1px solid rgb(115, 231, 7);
+    border-radius: 2px;
+    background-color: rgb(245, 250, 240);
+    font-size: 15px;
+    padding: 2px;
+}
+
+.numButton:hover{
+    transform: scale(1.2);
+}
