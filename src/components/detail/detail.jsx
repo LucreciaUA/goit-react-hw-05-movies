@@ -1,8 +1,8 @@
-import { getSelected } from "API/selected";
+import { getSelected } from "API/selected.js";
 import React, { useEffect, useState } from "react";
 import { NavLink, Outlet, useLocation, useNavigate, useParams } from "react-router-dom";
 import css from './detail.module.css'
-import { Loader } from "components/spinner/loader";
+import { Loader } from "components/spinner/loader.jsx";
 
 export const SelectedMovie = (id) => {
     const {movieId} = useParams()

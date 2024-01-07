@@ -1,8 +1,8 @@
-import { getPopular } from "API/popular";
+import { getPopular } from "API/popular.js";
 import React, { useEffect, useState } from "react";
 import css from './home.module.css'
-import { ListOfMovies } from "components/listOfMovies/list";
-import { Loader } from "components/spinner/loader";
+import { ListOfMovies } from "components/listOfMovies/list.jsx";
+import { Loader } from "components/spinner/loader.jsx";
 
 export const Home = () => {
     const [popular, setPopular] = useState([]);

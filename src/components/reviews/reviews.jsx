@@ -1,5 +1,5 @@
-import { getReview } from "API/review"
-import { Loader } from "components/spinner/loader"
+import { getReview } from "API/review.js"
+import { Loader } from "components/spinner/loader.jsx"
 import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 export const Reviews = () => {

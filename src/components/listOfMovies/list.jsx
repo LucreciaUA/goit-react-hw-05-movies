@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import css from './list.module.css';
 import React from "react";
-import { Nothing } from "components/nothing/nothing";
+import { Nothing } from "components/nothing/nothing.jsx";
 
 export const ListOfMovies = ({movies}) => {
 

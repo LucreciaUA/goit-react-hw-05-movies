@@ -1,4 +1,4 @@
-import { api } from "./api"
+import { api } from "./api.js"
 const apiKey = `579f9cde8301da77a7eae5840c1b4661`
 
 export const getPopular = async() => {

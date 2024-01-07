@@ -1,9 +1,9 @@
-import { getMovies } from "API/search"
-import { ListOfMovies } from "components/listOfMovies/list"
-import { Pagination } from "components/pagination/pagination"
-import { Search } from "components/search/search"
-import { Loader } from "components/spinner/loader"
-import { Starting } from "components/starting-page/starting-page"
+import { getMovies } from "API/search.js"
+import { ListOfMovies } from "components/listOfMovies/list.jsx"
+import { Pagination } from "components/pagination/pagination.jsx"
+import { Search } from "components/search/search.jsx"
+import { Loader } from "components/spinner/loader.jsx"
+import { Starting } from "components/starting-page/starting-page.jsx"
 import { useEffect, useState } from "react"
 
 export const Movies = () => {

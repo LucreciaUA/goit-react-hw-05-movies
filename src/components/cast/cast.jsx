@@ -1,8 +1,8 @@
-import { getCast } from "API/cast"
+import { getCast } from "API/cast.js"
 import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom";
 import css from './cast.module.css'
-import { Loader } from "components/spinner/loader";
+import { Loader } from "components/spinner/loader.jsx";
 
 export const Cast = () => {
     const { movieId } = useParams();
