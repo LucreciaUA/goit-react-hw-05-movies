@@ -1,6 +1,6 @@
 import { getCast } from "API/cast"
 import React, { useEffect, useState } from "react"
-import { Outlet, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import css from './cast.module.css'
 import { Loader } from "components/spinner/loader";
 
